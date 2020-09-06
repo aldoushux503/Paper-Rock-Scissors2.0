@@ -52,7 +52,7 @@ rating_request = "!rating"
 user_name = input("Enter your name: ")
 print(f'Hello, {user_name} ')
 
-list_options = input()
+list_options = input('Enter options game: ')
 parameters_game(list_options)  # Removes unnecessary options
 print("Okay, let's start")
 
